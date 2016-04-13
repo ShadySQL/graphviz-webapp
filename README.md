@@ -5,7 +5,7 @@ A simple Java Web application deployed as a Docker container and run as part of 
 Checkout the project
 
 ```
-git clone https://github.com/omerio/graphviz-webapp 
+git clone https://github.com/ShadySQL/graphviz-webapp
 cd graphviz-webapp
 ```
 
