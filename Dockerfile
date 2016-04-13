@@ -1,7 +1,7 @@
 # Use the jre7 jetty 9.2 image from hub.docker.com
 FROM jetty:jre7
 
-MAINTAINER Omer Dawelbeit "omer.dawelbeit@gmail.com"
+MAINTAINER example "example@example.com"
 
 # Update aptitude with new repo
 # Install other software
