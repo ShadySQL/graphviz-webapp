@@ -1,6 +1,5 @@
 # graphviz-webapp
-A simple Java Web application deployed as a Docker container and run as part of a [Kubernetes cluster](https://github.com/omerio/kubernetes-graphviz).
-
+A simple Java Web application deployed as a Docker container and run as part of a Kubernetes Cluster
 ## Getting Started
 
 Checkout the project
@@ -26,11 +25,11 @@ To deploy the image to the Docker hub:
 
 ```
 # tag the image
-docker tag <IMAGE-ID> omerio/graphviz-webapp:latest
+docker tag <IMAGE-ID> shadysql/graphviz-webapp:latest
 # login to the docker hub
 docker login --username=blah --password=blah --email=blah@gmail.com
 # push the image
-docker push omerio/graphviz-webapp
+docker push shadysql/graphviz-webapp
 ```
 
 Optionally, if you are using Google Container Engine, to deploy the image to the Google Container Registry:
